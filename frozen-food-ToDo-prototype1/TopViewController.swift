@@ -8,8 +8,9 @@
 
 import UIKit
 
-class TopViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class TopViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate {
 
+    @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var todolistTable: UITableView!
     @IBAction func back(segue: UIStoryboardSegue) {
     }
@@ -23,6 +24,9 @@ class TopViewController: UIViewController, UITableViewDelegate, UITableViewDataS
         if NSUserDefaults.standardUserDefaults().objectForKey("dateList") != nil {
             dateItem = NSUserDefaults.standardUserDefaults().objectForKey("dateList") as! [String]
         }
+        
+        // searchBarの情報を受け取るためのdelegateを設定
+        searchBar.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -55,6 +59,30 @@ class TopViewController: UIViewController, UITableViewDelegate, UITableViewDataS
             NSUserDefaults.standardUserDefaults().setObject(todoItem, forKey: "todoList")
             todolistTable.reloadData()
         }
+    }
+    
+    // MARK: searchBar
+    
+    //テキストが変更される毎に呼ばれる
+    func searchBar(searchBar: UISearchBar, textDidChange searchText: String) {
+        
+    }
+    
+    //Cancelボタンが押された時に呼ばれる
+    func searchBarCancelButtonClicked(searchBar: UISearchBar) {
+    }
+    
+    //Searchボタンが押された時に呼ばれる
+    func searchBarSearchButtonClicked(searchBar: UISearchBar) {
+        // AppDelegateクラスのメンバー変数を参照する
+        var app:AppDelegate =
+        (UIApplication.sharedApplication().delegate as! AppDelegate)
+        app.searchBar = searchBar.text
+        // webviewへ遷移
+        let secondViewController: WebViewController = self.storyboard?.instantiateViewControllerWithIdentifier("webVC") as! WebViewController
+        self.presentViewController(secondViewController, animated: true, completion: nil)
+        // キーボードを閉じる
+        self.view.endEditing(true)
     }
 
 
