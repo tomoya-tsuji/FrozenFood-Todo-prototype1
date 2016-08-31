@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD9AE20A1D774B920080DDB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9AE2091D774B920080DDB8 /* AppDelegate.swift */; };
+		CD9AE20C1D774B920080DDB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9AE20B1D774B920080DDB8 /* ViewController.swift */; };
+		CD9AE20F1D774B920080DDB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9AE20D1D774B920080DDB8 /* Main.storyboard */; };
+		CD9AE2111D774B920080DDB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9AE2101D774B920080DDB8 /* Assets.xcassets */; };
+		CD9AE2141D774B920080DDB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9AE2121D774B920080DDB8 /* LaunchScreen.storyboard */; };
+		CD9AE21F1D774B920080DDB8 /* frozen_food_ToDo_prototype1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9AE21E1D774B920080DDB8 /* frozen_food_ToDo_prototype1Tests.swift */; };
+		CD9AE22A1D774B920080DDB8 /* frozen_food_ToDo_prototype1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9AE2291D774B920080DDB8 /* frozen_food_ToDo_prototype1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD9AE21B1D774B920080DDB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD9AE1FE1D774B920080DDB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD9AE2051D774B920080DDB8;
+			remoteInfo = "frozen-food-ToDo-prototype1";
+		};
+		CD9AE2261D774B920080DDB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD9AE1FE1D774B920080DDB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD9AE2051D774B920080DDB8;
+			remoteInfo = "frozen-food-ToDo-prototype1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD9AE2061D774B920080DDB8 /* frozen-food-ToDo-prototype1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "frozen-food-ToDo-prototype1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9AE2091D774B920080DDB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD9AE20B1D774B920080DDB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD9AE20E1D774B920080DDB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD9AE2101D774B920080DDB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD9AE2131D774B920080DDB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD9AE2151D774B920080DDB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9AE21A1D774B920080DDB8 /* frozen-food-ToDo-prototype1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "frozen-food-ToDo-prototype1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9AE21E1D774B920080DDB8 /* frozen_food_ToDo_prototype1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frozen_food_ToDo_prototype1Tests.swift; sourceTree = "<group>"; };
+		CD9AE2201D774B920080DDB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9AE2251D774B920080DDB8 /* frozen-food-ToDo-prototype1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "frozen-food-ToDo-prototype1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9AE2291D774B920080DDB8 /* frozen_food_ToDo_prototype1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frozen_food_ToDo_prototype1UITests.swift; sourceTree = "<group>"; };
+		CD9AE22B1D774B920080DDB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD9AE2031D774B920080DDB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9AE2171D774B920080DDB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9AE2221D774B920080DDB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD9AE1FD1D774B920080DDB8 = {
+			isa = PBXGroup;
+			children = (
+				CD9AE2081D774B920080DDB8 /* frozen-food-ToDo-prototype1 */,
+				CD9AE21D1D774B920080DDB8 /* frozen-food-ToDo-prototype1Tests */,
+				CD9AE2281D774B920080DDB8 /* frozen-food-ToDo-prototype1UITests */,
+				CD9AE2071D774B920080DDB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD9AE2071D774B920080DDB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD9AE2061D774B920080DDB8 /* frozen-food-ToDo-prototype1.app */,
+				CD9AE21A1D774B920080DDB8 /* frozen-food-ToDo-prototype1Tests.xctest */,
+				CD9AE2251D774B920080DDB8 /* frozen-food-ToDo-prototype1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD9AE2081D774B920080DDB8 /* frozen-food-ToDo-prototype1 */ = {
+			isa = PBXGroup;
+			children = (
+				CD9AE2091D774B920080DDB8 /* AppDelegate.swift */,
+				CD9AE20B1D774B920080DDB8 /* ViewController.swift */,
+				CD9AE20D1D774B920080DDB8 /* Main.storyboard */,
+				CD9AE2101D774B920080DDB8 /* Assets.xcassets */,
+				CD9AE2121D774B920080DDB8 /* LaunchScreen.storyboard */,
+				CD9AE2151D774B920080DDB8 /* Info.plist */,
+			);
+			path = "frozen-food-ToDo-prototype1";
+			sourceTree = "<group>";
+		};
+		CD9AE21D1D774B920080DDB8 /* frozen-food-ToDo-prototype1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CD9AE21E1D774B920080DDB8 /* frozen_food_ToDo_prototype1Tests.swift */,
+				CD9AE2201D774B920080DDB8 /* Info.plist */,
+			);
+			path = "frozen-food-ToDo-prototype1Tests";
+			sourceTree = "<group>";
+		};
+		CD9AE2281D774B920080DDB8 /* frozen-food-ToDo-prototype1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD9AE2291D774B920080DDB8 /* frozen_food_ToDo_prototype1UITests.swift */,
+				CD9AE22B1D774B920080DDB8 /* Info.plist */,
+			);
+			path = "frozen-food-ToDo-prototype1UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD9AE2051D774B920080DDB8 /* frozen-food-ToDo-prototype1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9AE22E1D774B920080DDB8 /* Build configuration list for PBXNativeTarget "frozen-food-ToDo-prototype1" */;
+			buildPhases = (
+				CD9AE2021D774B920080DDB8 /* Sources */,
+				CD9AE2031D774B920080DDB8 /* Frameworks */,
+				CD9AE2041D774B920080DDB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "frozen-food-ToDo-prototype1";
+			productName = "frozen-food-ToDo-prototype1";
+			productReference = CD9AE2061D774B920080DDB8 /* frozen-food-ToDo-prototype1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD9AE2191D774B920080DDB8 /* frozen-food-ToDo-prototype1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9AE2311D774B920080DDB8 /* Build configuration list for PBXNativeTarget "frozen-food-ToDo-prototype1Tests" */;
+			buildPhases = (
+				CD9AE2161D774B920080DDB8 /* Sources */,
+				CD9AE2171D774B920080DDB8 /* Frameworks */,
+				CD9AE2181D774B920080DDB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD9AE21C1D774B920080DDB8 /* PBXTargetDependency */,
+			);
+			name = "frozen-food-ToDo-prototype1Tests";
+			productName = "frozen-food-ToDo-prototype1Tests";
+			productReference = CD9AE21A1D774B920080DDB8 /* frozen-food-ToDo-prototype1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD9AE2241D774B920080DDB8 /* frozen-food-ToDo-prototype1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9AE2341D774B920080DDB8 /* Build configuration list for PBXNativeTarget "frozen-food-ToDo-prototype1UITests" */;
+			buildPhases = (
+				CD9AE2211D774B920080DDB8 /* Sources */,
+				CD9AE2221D774B920080DDB8 /* Frameworks */,
+				CD9AE2231D774B920080DDB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD9AE2271D774B920080DDB8 /* PBXTargetDependency */,
+			);
+			name = "frozen-food-ToDo-prototype1UITests";
+			productName = "frozen-food-ToDo-prototype1UITests";
+			productReference = CD9AE2251D774B920080DDB8 /* frozen-food-ToDo-prototype1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD9AE1FE1D774B920080DDB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = astrotom;
+				TargetAttributes = {
+					CD9AE2051D774B920080DDB8 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					CD9AE2191D774B920080DDB8 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CD9AE2051D774B920080DDB8;
+					};
+					CD9AE2241D774B920080DDB8 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CD9AE2051D774B920080DDB8;
+					};
+				};
+			};
+			buildConfigurationList = CD9AE2011D774B920080DDB8 /* Build configuration list for PBXProject "frozen-food-ToDo-prototype1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD9AE1FD1D774B920080DDB8;
+			productRefGroup = CD9AE2071D774B920080DDB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD9AE2051D774B920080DDB8 /* frozen-food-ToDo-prototype1 */,
+				CD9AE2191D774B920080DDB8 /* frozen-food-ToDo-prototype1Tests */,
+				CD9AE2241D774B920080DDB8 /* frozen-food-ToDo-prototype1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD9AE2041D774B920080DDB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9AE2141D774B920080DDB8 /* LaunchScreen.storyboard in Resources */,
+				CD9AE2111D774B920080DDB8 /* Assets.xcassets in Resources */,
+				CD9AE20F1D774B920080DDB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9AE2181D774B920080DDB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9AE2231D774B920080DDB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD9AE2021D774B920080DDB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9AE20C1D774B920080DDB8 /* ViewController.swift in Sources */,
+				CD9AE20A1D774B920080DDB8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9AE2161D774B920080DDB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9AE21F1D774B920080DDB8 /* frozen_food_ToDo_prototype1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9AE2211D774B920080DDB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9AE22A1D774B920080DDB8 /* frozen_food_ToDo_prototype1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD9AE21C1D774B920080DDB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD9AE2051D774B920080DDB8 /* frozen-food-ToDo-prototype1 */;
+			targetProxy = CD9AE21B1D774B920080DDB8 /* PBXContainerItemProxy */;
+		};
+		CD9AE2271D774B920080DDB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD9AE2051D774B920080DDB8 /* frozen-food-ToDo-prototype1 */;
+			targetProxy = CD9AE2261D774B920080DDB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD9AE20D1D774B920080DDB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD9AE20E1D774B920080DDB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD9AE2121D774B920080DDB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD9AE2131D774B920080DDB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD9AE22C1D774B920080DDB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD9AE22D1D774B920080DDB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD9AE22F1D774B920080DDB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "frozen-food-ToDo-prototype1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.astrotom.frozen-food-ToDo-prototype1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD9AE2301D774B920080DDB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "frozen-food-ToDo-prototype1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.astrotom.frozen-food-ToDo-prototype1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD9AE2321D774B920080DDB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "frozen-food-ToDo-prototype1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.astrotom.frozen-food-ToDo-prototype1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/frozen-food-ToDo-prototype1.app/frozen-food-ToDo-prototype1";
+			};
+			name = Debug;
+		};
+		CD9AE2331D774B920080DDB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "frozen-food-ToDo-prototype1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.astrotom.frozen-food-ToDo-prototype1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/frozen-food-ToDo-prototype1.app/frozen-food-ToDo-prototype1";
+			};
+			name = Release;
+		};
+		CD9AE2351D774B920080DDB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "frozen-food-ToDo-prototype1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.astrotom.frozen-food-ToDo-prototype1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "frozen-food-ToDo-prototype1";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CD9AE2361D774B920080DDB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "frozen-food-ToDo-prototype1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.astrotom.frozen-food-ToDo-prototype1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "frozen-food-ToDo-prototype1";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD9AE2011D774B920080DDB8 /* Build configuration list for PBXProject "frozen-food-ToDo-prototype1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9AE22C1D774B920080DDB8 /* Debug */,
+				CD9AE22D1D774B920080DDB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9AE22E1D774B920080DDB8 /* Build configuration list for PBXNativeTarget "frozen-food-ToDo-prototype1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9AE22F1D774B920080DDB8 /* Debug */,
+				CD9AE2301D774B920080DDB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD9AE2311D774B920080DDB8 /* Build configuration list for PBXNativeTarget "frozen-food-ToDo-prototype1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9AE2321D774B920080DDB8 /* Debug */,
+				CD9AE2331D774B920080DDB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD9AE2341D774B920080DDB8 /* Build configuration list for PBXNativeTarget "frozen-food-ToDo-prototype1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9AE2351D774B920080DDB8 /* Debug */,
+				CD9AE2361D774B920080DDB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD9AE1FE1D774B920080DDB8 /* Project object */;
+}
