@@ -20,7 +20,7 @@ class AddIngredientsViewController: UIViewController {
     @IBOutlet weak var itemTextField: UITextField!
     @IBOutlet weak var dateTextField: UITextField!
     @IBOutlet weak var addItemButton: UIButton!
-    
+
     @IBAction func addItemButton(sender: AnyObject) {
         if ((itemTextField.text?.characters.count != 0) && (dateTextField.text?.characters.count != 0)) {
             print("データ保存開始")
@@ -40,12 +40,17 @@ class AddIngredientsViewController: UIViewController {
             alert.show();
 
         } else {
-            print("データ送信できないよ〜")
             let alert = UIAlertView()
             alert.title = "追加できません"
             alert.message = "全て入力してください"
             alert.addButtonWithTitle("OK")
             alert.show();
         }
+    }
+    
+    @IBAction func clearData(sender: AnyObject) {
+        ingredientsDefaults.removeObjectForKey("todoItem")
+        dateDefaults.removeObjectForKey("dateItem")
+        print("データを初期化しました")
     }
 }

@@ -15,6 +15,7 @@
 		CD9AE21F1D774B920080DDB8 /* frozen_food_ToDo_prototype1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9AE21E1D774B920080DDB8 /* frozen_food_ToDo_prototype1Tests.swift */; };
 		CD9AE22A1D774B920080DDB8 /* frozen_food_ToDo_prototype1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9AE2291D774B920080DDB8 /* frozen_food_ToDo_prototype1UITests.swift */; };
 		CD9AE2381D774E890080DDB8 /* AddIngredientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9AE2371D774E890080DDB8 /* AddIngredientsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CD9AE23A1D7757680080DDB8 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9AE2391D7757680080DDB8 /* CustomTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CD9AE2291D774B920080DDB8 /* frozen_food_ToDo_prototype1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frozen_food_ToDo_prototype1UITests.swift; sourceTree = "<group>"; };
 		CD9AE22B1D774B920080DDB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD9AE2371D774E890080DDB8 /* AddIngredientsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddIngredientsViewController.swift; sourceTree = "<group>"; };
+		CD9AE2391D7757680080DDB8 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				CD9AE2091D774B920080DDB8 /* AppDelegate.swift */,
 				CD9AE20B1D774B920080DDB8 /* TopViewController.swift */,
 				CD9AE2371D774E890080DDB8 /* AddIngredientsViewController.swift */,
+				CD9AE2391D7757680080DDB8 /* CustomTableViewCell.swift */,
 				CD9AE20D1D774B920080DDB8 /* Main.storyboard */,
 				CD9AE2101D774B920080DDB8 /* Assets.xcassets */,
 				CD9AE2121D774B920080DDB8 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				CD9AE2381D774E890080DDB8 /* AddIngredientsViewController.swift in Sources */,
 				CD9AE20C1D774B920080DDB8 /* TopViewController.swift in Sources */,
+				CD9AE23A1D7757680080DDB8 /* CustomTableViewCell.swift in Sources */,
 				CD9AE20A1D774B920080DDB8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
