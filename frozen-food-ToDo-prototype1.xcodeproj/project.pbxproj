@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		CD9AE20A1D774B920080DDB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9AE2091D774B920080DDB8 /* AppDelegate.swift */; };
-		CD9AE20C1D774B920080DDB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9AE20B1D774B920080DDB8 /* ViewController.swift */; };
+		CD9AE20C1D774B920080DDB8 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9AE20B1D774B920080DDB8 /* TopViewController.swift */; };
 		CD9AE20F1D774B920080DDB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9AE20D1D774B920080DDB8 /* Main.storyboard */; };
 		CD9AE2111D774B920080DDB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9AE2101D774B920080DDB8 /* Assets.xcassets */; };
 		CD9AE2141D774B920080DDB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9AE2121D774B920080DDB8 /* LaunchScreen.storyboard */; };
 		CD9AE21F1D774B920080DDB8 /* frozen_food_ToDo_prototype1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9AE21E1D774B920080DDB8 /* frozen_food_ToDo_prototype1Tests.swift */; };
 		CD9AE22A1D774B920080DDB8 /* frozen_food_ToDo_prototype1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9AE2291D774B920080DDB8 /* frozen_food_ToDo_prototype1UITests.swift */; };
+		CD9AE2381D774E890080DDB8 /* AddIngredientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9AE2371D774E890080DDB8 /* AddIngredientsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		CD9AE2061D774B920080DDB8 /* frozen-food-ToDo-prototype1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "frozen-food-ToDo-prototype1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9AE2091D774B920080DDB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD9AE20B1D774B920080DDB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD9AE20B1D774B920080DDB8 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		CD9AE20E1D774B920080DDB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD9AE2101D774B920080DDB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD9AE2131D774B920080DDB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		CD9AE2251D774B920080DDB8 /* frozen-food-ToDo-prototype1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "frozen-food-ToDo-prototype1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9AE2291D774B920080DDB8 /* frozen_food_ToDo_prototype1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frozen_food_ToDo_prototype1UITests.swift; sourceTree = "<group>"; };
 		CD9AE22B1D774B920080DDB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9AE2371D774E890080DDB8 /* AddIngredientsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddIngredientsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				CD9AE2091D774B920080DDB8 /* AppDelegate.swift */,
-				CD9AE20B1D774B920080DDB8 /* ViewController.swift */,
+				CD9AE20B1D774B920080DDB8 /* TopViewController.swift */,
+				CD9AE2371D774E890080DDB8 /* AddIngredientsViewController.swift */,
 				CD9AE20D1D774B920080DDB8 /* Main.storyboard */,
 				CD9AE2101D774B920080DDB8 /* Assets.xcassets */,
 				CD9AE2121D774B920080DDB8 /* LaunchScreen.storyboard */,
@@ -255,7 +258,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD9AE20C1D774B920080DDB8 /* ViewController.swift in Sources */,
+				CD9AE2381D774E890080DDB8 /* AddIngredientsViewController.swift in Sources */,
+				CD9AE20C1D774B920080DDB8 /* TopViewController.swift in Sources */,
 				CD9AE20A1D774B920080DDB8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
